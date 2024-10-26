@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    background-image: url(../public_html/assets/imgs/minato.jpg);
+    background-size:cover;
+}
+
+.calculator {
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px rgb(130, 139, 0);
+    padding: 20px;
+    width: 320px;
+    backdrop-filter: blur(10px);
+}
+input {
+    width: 93%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3e9cff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h3 {
+    margin-top: 20px;
+    text-align: center;
+}
