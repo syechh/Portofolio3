@@ -11620,6 +11620,13 @@ pre .code {
   border-right: none;
 }
 
+.lokasi{
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  
+}
+
 .contact {
   position: relative;
   min-height: 700px;
